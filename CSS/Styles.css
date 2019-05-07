@@ -2,6 +2,12 @@
 body.demos .container-fluid {
     max-width: 1080px
 }
+body {
+    color: #999;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.80857;
+}
 a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -1298,4 +1304,41 @@ li.social-links a {
 .portfolio-filter ul li .btn-dark.active{
 	background: #fcbf02;
 	color: #ffffff;
+}
+
+                                                /*ABOUT-US*/
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 120px 0;
+    position: relative;
+    width: 100%;
+}
+.parallax.parallax-off {
+    background-attachment: scroll !important;
+    display: block;
+    height: 40%;
+    min-height: 40%;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+    vertical-align: sub;
+    width: 100%;
+    z-index: 2;
+    background-color: #009ee3;
+}
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+}
+.parallax .count{
+    font-weight: bold;
+}
+.count-img{
+    max-height: 30%;
+    max-width: 30%;
 }
