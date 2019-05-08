@@ -1342,3 +1342,13 @@ li.social-links a {
     max-height: 30%;
     max-width: 30%;
 }
+
+                                                /*CONTACT-US*/
+.con-btn
+{
+    color: black;
+}
+.con-btn:hover
+{
+    color: black;
+}

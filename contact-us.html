@@ -4,9 +4,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>ESMITO</title>  
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        <meta name="author" content="">
         <link rel="stylesheet" href="CSS/Styles.css">
         <link rel="stylesheet" href="CSS/font-awesome.min.css">
         <link rel="stylesheet" href="CSS/bootstrap.min.css">
@@ -73,7 +70,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="navbar-nav ml-auto">
-                            <li><a class="active" href="index.html">HOME</a></li>
+                            <li><a href="index.html">HOME</a></li>
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">SOLUTIONS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -85,135 +82,79 @@
                             <li><a href="#">CASE STUDY</a></li>
                             <li><a href="news&resources.html">NEWS & RESOURCES</a></li>    
                             <li><a href="#">CAREERS</a></li>
-                            <li><a href="contact-us.html">CONTACTS</a></li>
+                            <li><a class="active" href="contact-us.html">CONTACTS</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <div class="slider-area">
-		<div class="slider-wrapper owl-carousel">
-			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-one">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-                            <div class="slider-content-area">
-                                <video autoplay loop width="1130" height="630">
-                                    <source src="Images/EV%20Trail.mp4" type="video/mp4">
-                                </video>
-								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
-									<div class="slider-content-btn">
-										<a class="btn11" href="about-us.html">about us<div class="transition"></div></a>
-									</div>
-								</div>                   
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="slider-content-area">
-								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
-									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
-								    </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-three">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="slider-content-area">
-								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
-									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
-								    </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-        <div id="features" class="section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Features & Overviews</h3>
-                <p class="lead"><b>Central Management System (CMS)</b> <br> With Data Analytics</p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <ul class="features-left">
-                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <i class="#"></i>
-                            <div class="fl-inner">
-                                <h4>Charging Station Management</h4>
-                                <p>Charging Profiles, Configurable</p>
+        <div class="banner-area banner-bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="banner">
+                            <h2><span>CONTACT US</span></h2>
+                            <ul class="page-title-link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                        	</ul>
+                        </div>
+                    </div>
+			     </div>
+		      </div>
+	    </div>
+        <div id="contact" class="section wb" style="background-image: url(Images/bg.png)">
+       <div class="container row-flex">
+        <div class="row custom-container">
+            <div class="col-md-push-12 col-md-4 col-xs-12 login-sec">
+                <div class="section-title text-center">
+                    <h3>Get in touch</h3>
+                    <p class="lead"></p>
+                </div><br>
+                <form id="contactform" action="contact-us.php" method="POST" enctype="text/plain" name="contactform" >
+                    <div class="col-lg-12 col-md-6">
+                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" required>
+                    </div><br>
+                    <div class="col-lg-12">
+                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" required>
+                    </div><br>
+                    <div class="col-lg-12">
+                        <input type="email" name="email" id="email" onblur="validateEmail(this.value)" class="form-control" placeholder="Your Email" required>
+                    </div><br>
+                    <div class="col-lg-12">
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                    </div><br>
+                    <div class="col-lg-12">
+                        <textarea class="form-control" name="comments" id="comments" rows="3" placeholder="Give us more details.."></textarea>
+                    </div><br>
+                    <div class="text-center cont-btn offset-lg-4 offset-md-4 offset-sm-4 offset-xs-3">
+                        <button type="submit" value="submit" id="submit" class="btn11 con-btn"><span>Submit</span></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-pull-12 col-md-8 col-xs-12 order-xs-1 banner-sec">
+                    <div id="indicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                             <li data-target="#indicators" data-slide-to="0" ></li>
+                             <li data-target="#indicators" data-slide-to="1" class="active"></li>
+                             <li data-target="#indicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item ">
+                                <img class="d block img-fluid" src="Images/con-1.jpg" alt="first slide">
                             </div>
-                        </li>
-                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <i class="#"></i>
-                            <div class="fl-inner">
-                                <h4>Logistics Management</h4>
-                                <p>Inventory Control and Battery Movement Tracking </p>
+                            <div class="carousel-item active">
+                                <img class="d block img-fluid" src="Images/con-2.jpg" alt="second slide">
                             </div>
-                        </li>
-                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <i class="#"></i>
-                            <div class="fl-inner">
-                                <h4>Customers Management</h4>
-                                <p>Customers Can Hail/Raid an Electric Vehicle and Pay in-App </p>
+                            <div class="carousel-item">
+                                <img class="d block img-fluid" src="Images/con-3.jpg" alt="third slide">
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col-md-4 hidden-xs hidden-sm">
-                    <img src="Images/1697766.png" class="img-center img-fluid" alt="circle">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <ul class="features-right">
-                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <i class="#"></i>
-                            <div class="fr-inner">
-                                <h4>Drivers Management</h4>
-                                <p>Route Management, <br>Payments </p>
-                            </div>
-                        </li>
-                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <i class="#"></i>
-                            <div class="fr-inner">
-                                <h4>Swapping Management</h4>
-                                <p>Enabling Smart Locking/Unlocking of Batteries  </p>
-                            </div>
-                        </li>
-                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <i class="#"></i>
-                            <div class="fr-inner">
-                                <h4>Business Operations and Management</h4>
-                                <p>Business Vehicles</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-        
+        </div>
+        </div>
+        </div>
         <footer class="footer">
         <div class="container">
             <div class="row">
@@ -223,8 +164,8 @@
                             <img class="footer-img"src="Images/esmito5.png" alt="logo" />
                         </div>
                         <p> We're looking for people who can join us and solve problems in a challenging technology to provide solutions for various industries and enjoy the entrepreneurial lifestyle.We offer a prominent workplace for exceptional engineers and business connoisseurs. We’re searching for self-motivated individuals who work hard and get the job done. In return, we strive to create a work environment that’s exciting, accommodating, and that promotes every individual ideas and efforts.</p>                        
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
+                    </div>
+                </div>
 				<div class="col-md-6 col-lg-6" style="float: right">
 					<div class="widget footer-contact clearfix">
 						<div class="widget-title">
@@ -254,8 +195,6 @@
                 </div>
             </div>
         </div>
-
-
         <script type="text/javascript">
             $(document).ready(function(){
 	        $(".dropdown, .btn-group").hover(function(){
@@ -266,6 +205,9 @@
                 });
         });		
         </script>
+        <script>
+            $('.carousel').carousel()
+        </script>
         <script src="JS/bootstrap.min.js"></script>
         <script src="JS/jquery-3.3.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -275,5 +217,4 @@
         <script src="JS/custom.js"></script>
         <script src="JS/portfolio.js"></script>
     </body>
-    
 </html>
