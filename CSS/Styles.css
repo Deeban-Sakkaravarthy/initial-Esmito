@@ -1352,3 +1352,11 @@ li.social-links a {
 {
     color: black;
 }
+
+                                                /*<CASE-STUDY>*/
+
+.case-img
+{
+    max-height: 35vh;
+    width: 100vw;
+}
