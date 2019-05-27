@@ -37,15 +37,18 @@
 					<div class="right-top">
 						<div class="social-box">
 							<ul>
+<!--
 								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-<!--								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>-->
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-<!--								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>-->
+								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+-->
                             </ul>
 						</div>
 					</div>
 				</div>
+<!--
 				<div class="col-md-6 col-sm-6">
 					<div class="left-top">
 						<div class="email-box">
@@ -56,9 +59,11 @@
 						</div>
 					</div>
 				</div>
+-->
 			</div>
 		  </div>
 	    </div>
+        
         <header class="header header_style_01">
             <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
@@ -77,9 +82,9 @@
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">SOLUTIONS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Public Charging Infrastructure</a></li>
+                                    <li><a href="pci.html">Public Charging Infrastructure</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Swapping Infrastructure</a></li>
+                                    <li><a href="si.html">Swapping Infrastructure</a></li>
                                 </ul>
                             </li>
                             <li><a href="case-study.html">CASE STUDY</a></li>
@@ -93,19 +98,24 @@
         </header>
         <div class="slider-area">
 		<div class="slider-wrapper owl-carousel">
-			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-one">
+            <div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-one">
 				<div class="container">
 					<div class="row">
+                        <ol class="carousel-indicators">
+                             <li data-target="#indicators" data-slide-to="0" ></li>
+                             <li data-target="#indicators" data-slide-to="1" class="active"></li>
+                             <li data-target="#indicators" data-slide-to="2"></li>
+                        </ol>
 						<div class="col-lg-12">
                             <div class="slider-content-area">
-                                <video autoplay loop width="1130" height="630">
+                                <video autoplay loop width="1150" height="630" >
                                     <source src="Images/EV%20Trail.mp4" type="video/mp4">
                                 </video>
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
+									<h1 class="homepage-three-title">Smart Management of EV Infrastructure</h1>
+									<h2>Most robust, <span>SaaS Cloud-based Platform</span> that offers solutions for <br>complete EV Infrastructure Management</h2>
 									<div class="slider-content-btn">
-										<a class="btn11" href="about-us.html">about us<div class="transition"></div></a>
+                                        <a class="btn11" href="about-us.html">about us<div class="transition"></div></a>
 									</div>
 								</div>                   
 							</div>
@@ -118,11 +128,14 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="slider-content-area">
+                                <video autoplay loop width="1050" height="620" controls muted>
+                                    <source src="Images/video-2.mp4" type="video/mp4">
+                                </video>
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
+									<h1 class="homepage-three-title">Smart Management of EV Infrastructure</h1>
+									<h2>Most robust, <span>SaaS Cloud-based Platform</span> that offers solutions for <br>complete EV Infrastructure Management</h2>
 									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
+										<a class="btn11" href="about-us.html"><span>about us</span><div class="transition"></div></a>
 								    </div>
 								</div>
 							</div>
@@ -136,10 +149,11 @@
 						<div class="col-lg-12">
 							<div class="slider-content-area">
 								<div class="slide-text">
-									<h1 class="homepage-three-title">Welcome to  <span>ESMITO</span> Solutions Pvt.Ltd</h1>
-									<h2>With ESMITO, <br>Smart Management of EV infrastructure <br>Esmito does it for U </h2>
+									<h1 class="homepage-three-title">Smart Management of EV Infrastructure</h1>
+									<h2>Most robust, <span>SaaS Cloud-based Platform</span> that offers solutions for <br>complete EV Infrastructure Management</h2>
 									<div class="slider-content-btn">
-										<a class="btn11" href="#"><span>Read More</span><div class="transition"></div></a>
+										<a class="btn11" href="about-us.html"><span>about us</span>
+                                        <div class="transition"></div></a>
 								    </div>
 								</div>
 							</div>
@@ -149,71 +163,232 @@
 			</div>
 		</div>
 	</div>
+        <br><hr><br>
+        <div class="" data-stellar-background-ratio="0.9">
+        <div class="container">
+            <div class="row text-center stat-wrap">
+                <div class="col-md-4 col-sm-4 col-xs-2">
+                    <span class="global-radius icon_wrap"><img class="count-img" src="Images/data.png" alt="icon"></span>
+                    <br><br>
+                    <h5>200 million</h5>
+                    <h3 class="line-hv">Datapoints from <br>E-transport</h3>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-2">
+                    <span class="global-radius icon_wrap"><img class="count-img" src="Images/distance.svg"></span>
+                    <br><br>
+                    <h5>80,000 km</h5>
+                    <h3 class="line-hv">Distance Monitored</h3>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-2">
+                    <span class="global-radius icon_wrap"><img class="count-img" src="Images/battery.png"></span>
+                    <br><br>
+                    <h5>4000</h5>
+                    <h3 class="line-hv">Battery Swapped</h3>
+                </div>
+            </div>
+        </div>
+    </div><br>
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+        <div class="site-block-1 ">
+            <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center text-center justify-content-center">
+                    <div class="col-md-8">
+                        <h1>Customers</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
+                            <div>
+                                <img src="Images/customer1.png">
+                            </div>
+                        </a>   
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
+                            <div>
+                                <img src="Images/customer2.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
+                            <div>
+                                <img src="Images/customer3.jpg">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="site-section">
+        <div class="container">
+<!--
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Trial Runs</h3>
+            <span class="font-weight-bold text-black mb-5">Esmito has conducted a pilot project for Swapping Infrastructure Management in IIT Madras Campus in partnership with C-BEEV<br>working with 5 OEMs & 3 Battery Manufacturers </span>
+          </div>
+        </div>
+-->
+          <br>
+        <div class="row mb-5 but-set">
+            <div class="popup" onclick="myfunction()">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 post-entry">
+                    <div id="light">
+                        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                        <video id="VisaChipCardVideo" width="800" controls>
+                            <source src="Images/video-2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div id="fade" onClick="lightbox_close();"></div>
+                    <a class="btn11" href="#" onclick="lightbox_open()">Demo<br>video<div class="transition"></div></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 post-entry">
+                <a class="btn11" href="contact-us.html">Get in Touch<div class="transition"></div></a>            
+            </div>
+        </div>
+      </div>
+    </div>
+        <hr>
+
         <div id="features" class="section lb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Features & Overviews</h3>
-                <p class="lead"><b>Central Management System (CMS)</b> <br> With Data Analytics</p>
+                <h2><b>Central Management System (CMS)</b> <br> With Data Analytics</h2>
             </div><!-- end title -->
 
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <ul class="features-left">
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <i class="#"></i>
                             <div class="fl-inner">
-                                <h4>Charging Station Management</h4>
-                                <p>Charging Profiles, Configurable</p>
+                                <h3>Fleet Management</h3>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="fl-inner">
+                                <h3>Charging Station Management</h3>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <i class="#"></i>
                             <div class="fl-inner">
-                                <h4>Logistics Management</h4>
-                                <p>Inventory Control and Battery Movement Tracking </p>
+                                <h3>Logistics Management</h3>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <i class="#"></i>
                             <div class="fl-inner">
-                                <h4>Customers Management</h4>
-                                <p>Customers Can Hail/Raid an Electric Vehicle and Pay in-App </p>
+                                <h3>Customers Management</h3>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4 hidden-xs hidden-sm">
-                    <img src="Images/1697766.png" class="img-center img-fluid" alt="circle">
+                    <img src="Images/cms.png" class="img-center img-fluid" alt="circle">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <ul class="features-right">
                         <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <i class="#"></i>
                             <div class="fr-inner">
-                                <h4>Drivers Management</h4>
-                                <p>Route Management, <br>Payments </p>
+                                <h3>Drivers Management</h3>
                             </div>
                         </li>
                         <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <i class="#"></i>
                             <div class="fr-inner">
-                                <h4>Swapping Management</h4>
-                                <p>Enabling Smart Locking/Unlocking of Batteries  </p>
+                                <h3>Swapping Management</h3>
+                            </div>
+                        </li>
+                        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <div class="fr-inner">
+                                <h3>Battery Performance Analytics</h3>
                             </div>
                         </li>
                         <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <i class="#"></i>
                             <div class="fr-inner">
-                                <h4>Business Operations and Management</h4>
-                                <p>Business Vehicles</p>
+                                <h3>Business Operations & Management</h3>
                             </div>
                         </li>
                     </ul>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-        
+                </div>
+            </div>
+        </div>
+    </div><hr>
+        <div id="services" class="parallax section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Why Us</h3>
+                <p class="lead">Esmito’s end-to-end EV Infrastructure Management Platform can increase the business profitability by optimizing EV operations</p>
+            </div>
+            <hr>
+            <div class="owl-services owl-carousel owl-theme">
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits1.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+                        <h3>Scalable cloud-hosted Platform</h3>
+					</div>
+                </div>
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits2.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Standard & Bespoke Solutions</h3>
+					</div>
+                </div>
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits3.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Web & Mobile Application Modules</h3>
+				    </div>
+                </div>
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits4.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Insightful Data Analytics driven Dashboard</h3>
+					</div>
+                </div>
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits5.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>IoT platform & AI based predictive models</h3>
+					</div>
+                </div>
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <img src="Images/benifits6.png" alt="" class="img-fluid img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Digitally enabled “pay as you go”</h3>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
         <footer class="footer">
         <div class="container">
             <div class="row">
@@ -255,7 +430,8 @@
             </div>
         </div>
 
-
+        <script src="JS/bootstrap.min.js"></script>
+        <script src="JS/jquery-3.3.1.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
 	        $(".dropdown, .btn-group").hover(function(){
@@ -266,8 +442,7 @@
                 });
         });		
         </script>
-        <script src="JS/bootstrap.min.js"></script>
-        <script src="JS/jquery-3.3.1.min.js"></script>
+        <script src="JS/demo.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="JS/modernizer.js"></script>
         <script src="JS/hoverdir.js"></script>
