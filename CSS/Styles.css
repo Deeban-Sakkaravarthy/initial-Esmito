@@ -727,7 +727,7 @@ ul, li, ol{
 .header_style_01 .navbar-light .navbar-nav > li > a {
     border-radius: 0;
     color: #009ee3;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     font-family: monospace;    
     text-transform: capitalize;
@@ -782,7 +782,7 @@ li.social-links a {
 }
 .navbar-nav a
 {
-    font-family: sans-serif;
+    font-family: monospace;
     font-weight: 800;
 }
 .navbar-nav span {
