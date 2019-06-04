@@ -810,6 +810,7 @@ li.social-links a {
 
                                     /*SLIDER AREA*/
 
+/*
 .slider-bg-one {
     background-position: center;
     background-repeat: no-repeat;
@@ -923,7 +924,6 @@ li.social-links a {
 	color: #ffffff;
 }
 
-/*
 .home-one-slider-otem::before{
 	content: "";
 	position: absolute;
