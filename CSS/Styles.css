@@ -1500,88 +1500,75 @@ li.social-links a {
     margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 3%;
-    max-width: 60%!important;
+    max-width: 70%!important;
 }
 .pci-text
 {
-    text-align: center;
+    text-align: left;
+    padding-top: 5vh;
+    font-family: 'Helvetica', Sans-Serif; 
+    font-weight: lighter;
 }
-.icon
+.pci-app
 {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: block;
-}
-.Services section
-{
-    padding-top:3%;
-    text-align: center;
-    color: aliceblue;
-    font-weight: 400;
-    background-position: center center;
-}
-.tab-3
-{
-    width: 480px;
-    height: 740px;
 }
 
                                             /*SI*/
 
 .si-text
 {
-    padding-top: 10vh;
-    text-align: center;
+    padding-top: 12%;
+    text-align: left;
+    justify-content: center;
 }
 .img-si
 {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    max-width: 80%!important;
+    padding-top: 14%;
+    max-width: 100%!important;
     
 }
-.icon
+.heading
 {
-    max-width: 130px;
-    max-height: 130px;
-    margin: 0 auto;
-    display: block;
+    padding-top: 1vh;
+    font-size: 25px;
+    font-family: 'Helvetica', Sans-Serif; 
+    font-weight: lighter;
+    align-content: center;
+    text-align: center;
+}
+.panel-head
+{
+    padding: 15px;
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: white;
 }
 .panel 
 {
+    box-shadow: 5px 10px 8px 10px #888888;
     text-align: center;
-    width: 80%;
-    padding: 15px;
-    color: white;
-    border: 2px solid;
-    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
-    margin: 0;
+    width: 45vh;
+    height: 75vh;
+    border-radius: 40px;
+    background-color: #D6EAF8;
 }
-.head-panel 
+.icon
 {
-    text-align: center;
-    width: 80%;
-    padding: 10px; 
+    width: 30vh;
+    margin-left: 7.5vh;
+    margin-top: 5vh;
 }
-/*
-.showme
+.points
 {
-    display: none;  
-    -webkit-transition: width 2s, height 4s; 
-    transition: width 2s, height 4s;
+    line-height: 200%;
+    padding-top: 3vh;
+    padding-left: 10vh;
+    text-align: left;
+    font-family:'Helvetica', Sans-Serif; 
+    font-weight: lighter;
+    font-size: 20px;
 }
-.showhim:hover .showme 
-{
-    
-    display: block;
-    width: 300px;
-    height: 500px;
-
-}
-*/
                                                 /*CAREER FORM*/
 
 input[type=number]::-webkit-inner-spin-button, 
