@@ -1,10 +1,15 @@
 body.demos .container-fluid {
     max-width: 1080px
 }
+.v1
+{
+    border-left: 3px solid blue;
+    height: 200px;
+}
 body {
 /*    background-image: radial-gradient(#f2fcfe, #1c92d2);*/
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     font-family: 'Helvetica' sans-serif;
     line-height: 1.80857;
 }
@@ -17,6 +22,11 @@ a {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+p
+{
+    font-family: 'Helvetica' sans-serif;
+    font-weight: lighter;
 }
 
 h1 {
@@ -51,7 +61,9 @@ h5 a,
 h6 a {
     color: #212121;
     text-decoration: none!important;
-    opacity: 1
+    opacity: 1;
+        font-family: 'Helvetica' sans-serif;
+    font-weight: lighter;
 }
 
 h1 a:hover,
@@ -60,13 +72,17 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    opacity: .8
+    opacity: .8;
+    font-family: 'Helvetica' sans-serif;
+    font-weight: lighter;
 }
 
 a {
     color: #1f1f1f;
     text-decoration: none;
     outline: none;
+    font-family: 'Helvetica' sans-serif;
+    font-weight: lighter;
 }
 
 a,
@@ -89,6 +105,8 @@ a,
 }
 
 .lead {
+    font-family: 'Helvetica' sans-serif;
+    font-weight: lighter;
     font-size: 18px;
     line-height: 30px;
     color: #767676;
@@ -722,7 +740,7 @@ ul, li, ol{
 }
 .navbar-brand img
 {
-    height: 6vh;
+    height: 8vh;
 }
 
 .header_style_01 .navbar-light .navbar-nav > li > a {
@@ -1462,7 +1480,7 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 120px 0;
 }
 .parallax .count{
     font-weight: bold;
@@ -1498,14 +1516,15 @@ li.social-links a {
     align-content: center;
     margin-left: 20%;
     margin-right: 8%;
-    margin-top: 5%;
+    padding-top: 8%;
     margin-bottom: 3%;
     max-width: 70%!important;
 }
 .pci-text
 {
+    font-size: 20px;
     text-align: left;
-    padding-top: 5vh;
+    padding-top: 8vh;
     font-family: 'Helvetica', Sans-Serif; 
     font-weight: lighter;
 }
@@ -1517,13 +1536,20 @@ li.social-links a {
 
 .si-text
 {
-    padding-top: 12%;
+    font-size: 20px;
+    font-family: 'Helvetica', Sans-Serif; 
+    font-weight: lighter;
+    padding-top: 12vh;
     text-align: left;
     justify-content: center;
 }
+.bolt-points
+{
+    
+}
 .img-si
 {
-    padding-top: 14%;
+    padding-top: 10%;
     max-width: 100%!important;
     
 }
@@ -1546,6 +1572,7 @@ li.social-links a {
 }
 .panel 
 {
+    
     box-shadow: 5px 10px 8px 10px #888888;
     text-align: center;
     width: 45vh;
@@ -1563,7 +1590,7 @@ li.social-links a {
 {
     line-height: 200%;
     padding-top: 3vh;
-    padding-left: 10vh;
+    padding-left: 6vh;
     text-align: left;
     font-family:'Helvetica', Sans-Serif; 
     font-weight: lighter;
@@ -1680,3 +1707,6 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: aqua;
     
 }
+                                    
+                                        /*INDEX-CUSTOMERS AND PARTNERS*/
+
