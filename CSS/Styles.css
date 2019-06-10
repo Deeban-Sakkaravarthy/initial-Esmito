@@ -1400,7 +1400,7 @@ li.social-links a {
 	left: 0;
 	position: absolute;
 	width: 100%;
-    max-height: 30vh;
+    max-height: 20vh;
 	z-index: -1;
 	background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
@@ -1411,7 +1411,7 @@ li.social-links a {
 }
 
 .banner h2{
-    padding-top: 8vh;
+    padding-top: 4vh;
 	color: #f1f1f1;
 	font-size: 45px;
 	font-weight: 700;
@@ -1455,19 +1455,18 @@ li.social-links a {
 
                                                 /*ABOUT-US*/
 
+/*
 .parallax {
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    padding: 120px 0;
+    height: 50%;
     position: relative;
     width: 100%;
 }
+*/
 .parallax.parallax-off {
-    background-attachment: scroll !important;
     display: block;
-    height: 40%;
-    min-height: 50%;
+    height: 20%;
     overflow: hidden;
     position: relative;
     background-position: center center;
@@ -1480,14 +1479,14 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 120px 0;
+    padding-top: 4vh;
 }
 .parallax .count{
     font-weight: bold;
 }
 .count-img{
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 25%;
+    max-width: 25%;
 }
 
 
@@ -1564,7 +1563,7 @@ li.social-links a {
 }
 .panel-head
 {
-    padding: 15px;
+    padding: 3%;
     background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -1575,8 +1574,8 @@ li.social-links a {
     
     box-shadow: 5px 10px 8px 10px #888888;
     text-align: center;
-    width: 45vh;
-    height: 85%;
+    width: 48vh;
+    height: 100%;
     border-radius: 40px;
     background-color: #D6EAF8;
 }
