@@ -834,11 +834,11 @@ li.social-links a {
 .hero-text
 {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 53px;
 }
 .sub-text
 {
-    font-size: 30px;
+    font-size: 26px;
 }
 .slider-bg-one {
     background-position: center;
@@ -1047,6 +1047,10 @@ li.social-links a {
 	     -moz-transform: translateX(-100%);
 	      -ms-transform: translateX(-100%);
 	          transform: translateX(-100%);
+}
+.data-bg
+{
+    background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6)
 }
 
                                         /*BLOCK*/
@@ -1495,8 +1499,9 @@ li.social-links a {
     font-weight: bold;
 }
 .count-img{
-    max-height: 25%;
-    max-width: 25%;
+    padding-top: 3%;
+    max-height: 43%;
+    max-width: 43%;
 }
 
 
@@ -1523,19 +1528,23 @@ li.social-links a {
 .pci
 {
     align-content: center;
-    margin-left: 20%;
-    margin-right: 4%;
-    padding-top: 8%;
-    margin-bottom: 3%;
-    max-width: 80%!important;
+    margin-left: 5%;
+    margin-right: 0%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    max-width: 90%!important;
 }
 .pci-text
 {
     font-size: 20px;
     text-align: left;
-    padding-top: 8vh;
+    padding-top: 5%;
     font-family: 'Helvetica', Sans-Serif; 
     font-weight: lighter;
+}
+.pci-points
+{
+    padding-left: 20%;
 }
 .pci-app
 {
@@ -1543,12 +1552,16 @@ li.social-links a {
 
                                             /*SI*/
 
+.si-points
+{
+    padding-left: 20%;
+}
 .si-text
 {
     font-size: 20px;
     font-family: 'Helvetica', Sans-Serif; 
     font-weight: lighter;
-    padding-top: 12vh;
+    padding-top: 7%;
     text-align: left;
     justify-content: center;
 }
@@ -1603,7 +1616,7 @@ li.social-links a {
     text-align: left;
     font-family:'Helvetica', Sans-Serif; 
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 18px;
 }
                                                 /*CAREER FORM*/
 
