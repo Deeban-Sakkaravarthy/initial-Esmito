@@ -831,14 +831,61 @@ li.social-links a {
 }
 
                                     /*SLIDER AREA*/
-.hero-text
+
+@media only screen and (max-width :850px)
 {
-    font-weight: bolder;
-    font-size: 53px;
+    .hero-text p
+    {
+        font-size: 4.2vw!important;
+    }
 }
-.sub-text
+@media only screen and (max-width :850px)
 {
-    font-size: 26px;
+    .sub-text p
+    {
+        font-size: 3.5vw!important;
+    }
+}
+@media only screen and (max-width :850px)
+{
+    .count-img
+    {
+        height: 10%;
+        float: left;
+    }
+    .line-hv1
+    {
+        margin-top: -5%;
+        font-size: 15px;
+    }
+    .line-hv
+    {
+        font-size: 18px
+    }
+    .data-bg
+    {
+        margin-top: -5%;
+    }
+    .why_us
+    {
+        padding-top: 8%;
+    }
+    .about_us h5
+    {
+        padding-top: 5vh;
+    }
+    .c_beev
+    {
+        padding-left: 16%;
+    }
+    .customer3
+    {
+        padding-top: 10%;
+    }
+    .footer-company-name 
+    {
+        margin-left: -15%;
+    }
 }
 .slider-bg-one {
     background-position: center;
@@ -1055,10 +1102,7 @@ li.social-links a {
 
                                         /*BLOCK*/
 
-.but-set
-{
-    padding-left: 35%;
-}
+
 #fade {
   display: none;
   position: fixed;
@@ -1545,9 +1589,6 @@ li.social-links a {
 .pci-points
 {
     padding-left: 20%;
-}
-.pci-app
-{
 }
 
                                             /*SI*/
