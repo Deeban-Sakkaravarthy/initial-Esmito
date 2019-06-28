@@ -831,6 +831,8 @@ li.social-links a {
 }
 
                                     /*SLIDER AREA*/
+            
+            /*AT MOBILE BREAK DOWN*/
 
 @media only screen and (max-width :850px)
 {
@@ -885,6 +887,57 @@ li.social-links a {
     .footer-company-name 
     {
         margin-left: -15%;
+    }
+    .home-one-slider-otem .slider-content-area 
+    {
+        height: 50px!important;
+        position: relative;
+    }
+    .videos
+    {
+        display: none;
+    }
+    .homepage-three-title
+    {
+        padding-top: 8%;
+    }
+    .pci-title
+    {
+        color: black!important;
+    }
+    .pci-points 
+    {
+        margin-left: -16vw;
+    }
+    .si-points
+    {
+        margin-left: -16vw;
+    }
+    .panel
+    {
+        height: 70vh!important;
+        width: 36vh!important;
+        margin-top: 5%;
+    }
+    .pci-icon
+    {
+        width: 20vh;
+        margin-left: -16vw;
+    }
+    .si-icon
+    {
+        width: 20vh;
+        margin-left: -16vw;
+    }
+}
+                
+                    /*AT DESKTOP BREAKPOINT */
+
+@media only screen and (min-width :850px)
+{
+    .si-title
+    {
+        display: none;
     }
 }
 .slider-bg-one {
